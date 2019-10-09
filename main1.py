@@ -19,7 +19,7 @@ PARTICLE_MAX_SCALE = 0.0000000000000001
 PARTICLE_MIN_X = -400
 PARTICLE_MAX_X = 400
 PARTICLE_VELOCITY_X = -1
-PARTICLE_VELOCITY_Y = -0.1
+PARTICLE_VELOCITY_Y = -0.01
 PARTICLE_MIN_AX = 0
 PARTICLE_MAX_AX = 0
 PARTICLE_MIN_AY = -0.01
@@ -42,12 +42,12 @@ class Particle(arcade.Sprite):
 
         self.particle_colors = [
             (open_color.blue_0, 4)
-            ,(open_color.blue_7, 5)
-            ,(open_color.blue_7, 6)
-            ,(open_color.blue_4, 7)
-            ,(open_color.blue_3, 8)
-            ,(open_color.blue_2, 8)
-            ,(open_color.blue_1, 7)
+            ,(open_color.blue_0, 2)
+            ,(open_color.blue_0, 6)
+            ,(open_color.blue_0, 7)
+            ,(open_color.blue_0, 8)
+            ,(open_color.blue_0, 8)
+            ,(open_color.blue_0, 7)
             ,(open_color.blue_0, 6)
             ,(open_color.blue_0, 5)
             ,(open_color.blue_0, 4)
